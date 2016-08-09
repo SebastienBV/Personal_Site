@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#about-text {
+  display: inline-block;
+  margin: 100px 0;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  padding: 2em;
+  letter-spacing: .12em;
+  border-radius: 3px;
+  background: #3D9970;
+  width: 90%;
+  left: 5%;
+  right: 5%;
+  box-shadow: 0px 0px 0px 2px white, 0px 0px 0px 4px #17138F;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: limegreen;
+  width: 110px;
+  float: center;
+  height: 50px;
+  text-align: center;
+  margin-left: 46%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.submit {
+  font-size: 20px;
+  background-image: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.submit:hover {
+  text-decoration: underline;
+  color: darkgreen;
+}
+
+.backup {
+  background-image: backup.png;
+  width: 16px;
+  height: 16px;
+  float: right;
+  position: fixed;
+  bottom: 8%;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+  animation: rotateIn 3s;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 2%;
+}
+
+#header {
+  height: 1000px;
+  background-image: url(BG.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  align-content: center;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: -20px;
+}
+
+#skills {
+  text-align: center;
+  background-image: url(paper.jpg);
+  padding-bottom: 10%;
+  background-size: 100%;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes spinner {
+
+
+
+}
+
+.headtext {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  bottom: 68;
+  text-align: center;
+}
+
+.formhead {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  text-decoration: underline;
+  vertical-align: center;
+  margin-left: 41%;
+  margin-right: 41%;
+}
+
+#form {
+  width: 500px;
+  margin: auto;
+}
+
+#form:hover {
+  color: none;
+}
+
+input {
+  font-family: 'Open Sans';
+  font-size: 0.875em;
+  width: 470px;
+  height: 70px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: $blue;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  background-image: url(sayagata.png);
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 2820px;
+  max-height: 220px;
+  padding: 15px;
+  background-color: none;
+  color: #1F1F1F;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #b3aca7;
+  transition: all 3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  background-image: url(sayagata.png);
+}
+
+textarea:hover {
+  box-shadow: inset 0px 0px 10px 5px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -webkit-box-shadow: inset 0px 0px 10px 5px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -moz-box-shadow: inset 0px 0px 10px px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -o-box-shadow: inset 0px 0px 10px 5px #52989E, 3px 99px 43px -5px #DDDDDD;
+}
+
+#name:hover {
+  box-shadow: inset 0px 0px 10px 5px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -webkit-box-shadow: inset 0px 0px 10px 5px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -moz-box-shadow: inset 0px 0px 10px px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -o-box-shadow: inset 0px 0px 10px 5px #52989E, 3px 99px 43px -5px #DDDDDD;
+}
+
+#submit {
+  width: 502px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Open Sans';
+  font-size: 0.875em;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+#email:hover {
+  box-shadow: inset 0px 0px 10px 5px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -webkit-box-shadow: inset 0px 0px 10px 5px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -moz-box-shadow: inset 0px 0px 10px px #52989E, 3px 5px 43px -5px #DDDDDD;
+  -o-box-shadow: inset 0px 0px 10px 5px #52989E, 3px 99px 43px -5px #DDDDDD;
+}
+
+.int {
+  background-position: fixed;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  margin-top: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.blink {
+  font-weight: 900;
+  padding-left: 5%;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.sub {
+  background-image: none;
+  background-color: none;
+  width: 100%;
+}
+
+.container {
+  width: 200px;
+  height: 260px;
+  position: relative;
+  perspective: 800px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 37px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  border: 1px solid black;
+}
+
+.contact {
+  bottom: 400%;
+  padding: 0;
+  margin: 0;
+  height: 40px;
+  height: 440px;
+  background-color: #000080 ;
+  word-spacing: 44px;
+  letter-spacing: 12em;
+}
+
+.follow {
+  color: black;
+  background-color: #000080;
+  font-size: 35px;
+  margin-left: auto;
+  text-decoration: underline;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+}
+
+.parallax {
+  height: 100px;
+  width: 100%;
+  padding-top: 2%;
+  background-image: url(escheresque_ste.png);
+  margin-bottom: 40%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  background-size: 45px;
+  padding-bottom: 2%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.seb {
+  background-image: seb.png;
+  border-radius: 90%;
+  align-self: center;
+  text-align: center;
+}
+
+.btn-two {
+  color: #020003;
+  transition: all 0.5s;
+  position: relative;
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 199px;
+  font-family: 'Open Sans';
+}
+
+.btn-two span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.btn-two::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-two::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-two:hover::before {
+  transform: rotate(-45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.btn-two:hover::after {
+  transform: rotate(45deg);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.mail {
+  width: 150px;
+  height: 150px;
+  padding-top: 10%;
+}
+
+.mail:hover {
+  border-bottom: 4px solid grey;
+  padding-bottom: 10px;
+}
+
+.threed {
+  width: 150px;
+  height: 150px;
+  padding-top: 10%;
+}
+
+.threed:hover {
+  border-bottom: 4px solid grey;
+  padding-bottom: 10px;
+}
+
+.git {
+  width: 150px;
+  height: 150px;
+  padding-top: 10%;
+}
+
+.git:hover {
+  border-bottom: 4px solid grey;
+  padding-bottom: 10px;
+}
+
+.codepen {
+  width: 150px;
+  height: 150px;
+  padding-top: 10%;
+}
+
+.codepen:hover {
+  border-bottom: 4px solid grey;
+  padding-bottom: 10px;
+}
+
+@-webkit-keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+@keyframes rotateIn {
+  from {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: rotate3d(0, 0, 1, -200deg);
+    transform: rotate3d(0, 0, 1, -200deg);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transform: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+span {
+  text-decoration: underline;
+}
+
+.scroll {}
+
+
+/* cyrillic-ext */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+
+/* cyrillic */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+
+/* greek-ext */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+
+
+/* greek */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAoX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+
+
+/* vietnamese */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEEYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+
+/* latin-ext */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+
+
+/* latin */
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
