@@ -1,0 +1,347 @@
+@import "variables";
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#about-text {
+    display: inline-block;
+    margin: 100px 0;
+    text-decoration: none;
+    font-size: 0.99em;
+    color: #DCD8CF;
+    padding: 2em;
+    letter-spacing: 0.12em;
+    border-radius: 3px;
+    background-color: rgb(233, 117, 33);
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    box-shadow: 0 0 0 2px white, 0 0 0 4px #17138F;
+}
+#hov:hover{
+    color:red;
+}
+.button {
+    border-radius: 20px;
+    width: 110px;
+    float: center;
+    height: 50px;
+    text-align: center;
+    margin-left: 46%;
+}
+.submit {
+    font-size: 1em;
+    background-image: none;
+}
+.submit:hover {
+    text-decoration: underline;
+    color: $darkgreen;
+}
+.backup {
+    background-image: url("backup.png");
+    width: 7%;
+    height: 7%;
+    float: right;
+    position: fixed;
+    bottom: 4%;
+
+    animation: rotateIn 1.5s;
+}
+.box {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 2%;
+}
+#header {
+    height: 130%;
+    background-image: url(BG.jpg)
+
+
+}
+#skills {
+    height: 500%;
+    text-align: center;
+    background-image: url("diagonal_striped_brick.png");
+    padding-bottom: 10%;
+}
+.formhead {
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: underline;
+    vertical-align: center;
+    margin-left: 41%;
+    margin-right: 41%;
+    margin-top: -39%;
+}
+#form {
+    width: 500px;
+    margin: auto;
+}
+input {
+    font-size: 0.875em;
+    width: 90%;
+    height: 70px;
+    padding: 0 15px;
+    border: solid 1px $lightwhite;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    background-image: url("sayagata.png");
+}
+textarea {
+    width: 90%;
+    height: 10em;
+    padding: 5%;
+    background-color: none;
+    color: #1F1F1F;
+    font-size: 0.875em;
+    border: solid 1px $lightwhite;
+    transition: all 3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    background-image: url("sayagata.png");
+}
+textarea:hover {
+    box-shadow: inset 0 0 10px 5px $turquoise, 3px 5px 43px -5px $grey;
+    -webkit-box-shadow: inset 0 0 10px 5px $turquoise, 3px 5px 43px -5px $grey;
+    -moz-box-shadow: inset 0 0 10px px $turquoise, 3px 5px 43px -5px $grey;
+    -o-box-shadow: inset 0 0 10px 5px $turquoise, 3px 99px 43px -5px $grey;
+}
+#name:hover {
+    box-shadow: inset 0 0 10px 5px $turquoise, 3px 5px 43px -5px $grey;
+    -webkit-box-shadow: inset 0 0 10px 5px $turquoise, 3px 5px 43px -5px $grey;
+    -moz-box-shadow: inset 0 0 10px px $turquoise, 3px 5px 43px -5px $grey;
+    -o-box-shadow: inset 0 0 10px 5px $turquoise, 3px 99px 43px -5px $grey;
+}
+#email:hover {
+    box-shadow: inset 0 0 10px 5px $turquoise, 3px 5px 43px -5px $grey;
+    -webkit-box-shadow: inset 0 0 10px 5px $turquoise, 3px 5px 43px -5px $grey;
+    -moz-box-shadow: inset 0 0 10px px $turquoise, 3px 5px 43px -5px $grey;
+    -o-box-shadow: inset 0 0 10px 5px $turquoise, 3px 99px 43px -5px $grey;
+}
+.blink {
+    font-weight: 900;
+    padding-left: 5%;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+.contact {
+    bottom: 400%;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    height: 440px;
+    background-color: $lightgreen;
+    letter-spacing: 10em;
+}
+.follow {
+    color: black;
+    background-color: $lightgreen;
+    font-size: 35px;
+    margin-left: auto;
+    text-decoration: underline;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
+.parallax {
+    height: 100px;
+    width: 100%;
+    padding-top: 2%;
+    background-image: url("escheresque_ste.png");
+    margin-bottom: 40%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: 45px;
+    padding-bottom: 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+.seb {
+    border-radius: 90%;
+    align-self: center;
+    text-align: center;
+    height: 30%;
+    width: 42%;
+}
+.btn-two {
+    color: #020003;
+    transition: all 1s;
+    position: relative;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    width: 13%;
+    border:1px solid black;
+    font-family: 'Open Sans';
+    bottom: 10%;
+}
+.btn-two span {
+    z-index: 2;
+    border:1px solid black;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.btn-two::before {
+    content: '';
+    border:1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-two::after {
+    content: '';
+        border:1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.6s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.btn-two:hover::before {
+    transform: rotate(-45deg);
+        border:1px solid black;
+    background-color: rgba(255, 255, 255, 0);
+}
+.btn-two:hover::after {
+    transform: rotate(45deg);
+        border:1px solid black;
+    background-color: rgba(255, 255, 255, 0);
+}
+.mail {
+    width: 12%;
+    padding-top: 10%;
+}
+.mail:hover {
+    border-bottom: 4px solid grey;
+}
+.git {
+    width: 12%;
+}
+.git:hover {
+    border-bottom: 4px solid grey;
+}
+.codepen {
+    width: 12%;
+    padding-top: 10%;
+}
+.codepen:hover {
+    border-bottom: 4px solid grey;
+}
+@-webkit-keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+@keyframes rotateIn {
+    from {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: rotate3d(0, 0, 1, -200deg);
+        transform: rotate3d(0, 0, 1, -200deg);
+        opacity: 0;
+    }
+    to {
+        -webkit-transform-origin: center;
+        transform-origin: center;
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+span {
+    text-decoration: underline;
+}
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/K88pR3goAWT7BTt32Z01m4X0hVgzZQUfRDuZrPvH3D8.woff2") format('woff2');
+    unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/RjgO7rYTmqiVp7vzi-Q5UYX0hVgzZQUfRDuZrPvH3D8.woff2") format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/LWCjsQkB6EMdfHrEVqA1KYX0hVgzZQUfRDuZrPvH3D8.woff2") format('woff2');
+    unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/xozscpT2726on7jbcb_pAoX0hVgzZQUfRDuZrPvH3D8.woff2") format('woff2');
+    unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/59ZRklaO5bWGqF5A9baEEYX0hVgzZQUfRDuZrPvH3D8.woff2") format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2") format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url("https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2") format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
